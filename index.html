@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SloganFox by TaleFrog - Professionelle Slogan-Entwicklung</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter-Schriftart -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-indigo-600">🦊 SloganFox <span class="font-normal text-gray-600 text-xl">by TaleFrog</span></span>
+                </div>
+                <!-- Nav-Links -->
+                <div class="hidden sm:block sm:ml-6">
+                    <div class="flex items-center space-x-6"> <!-- Wrapper für Nav und Sprache -->
+                        <!-- Bisherige Nav-Links -->
+                        <div class="flex space-x-4">
+                            <a href="#features" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Unser Ansatz</a>
+                            <a href="#wie-gehts" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Unser Prozess</a>
+                            <a href="#preise" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Pakete</a>
+                            <a href="#faq" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">FAQ</a>
+                        </div>
+
+                        <!-- NEU: Sprachwechsler -->
+                        <div class="flex items-center space-x-2 border-l border-gray-300 pl-4">
+                            <span class="text-sm font-bold text-gray-900 cursor-default" title="Aktuelle Sprache: Deutsch">DE</span>
+                            <span class="text-gray-400">|</span>
+                            <a href="#" class="text-sm font-medium text-gray-500 hover:text-indigo-600" title="Switch to English">EN</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- CTA Button -->
+                <div class="flex items-center">
+                    <a href="#preise" class="hidden sm:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        Zu den Paketen
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hauptinhalt -->
+    <main>
+
+        <!-- 1. Hero-Sektion -->
+        <section class="bg-white pt-16 pb-20 sm:pt-24 sm:pb-28">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <span class="text-base font-semibold text-indigo-600 uppercase tracking-wide">Professionelle Slogan-Entwicklung</span>
+                <h1 class="mt-4 text-4xl sm:text-6xl font-extrabold tracking-tight text-gray-900">
+                    Überzeugende Slogans für Ihre Marke.
+                </h1>
+                <p class="mt-6 text-xl text-gray-600 max-w-2xl mx-auto">
+                    Hören Sie auf, mit verwirrenden Marketingbotschaften zu kämpfen. Unsere App gibt Ihnen klare Kernaussagen, damit Ihre Produkte mühelos verkauft werden.
+                </p>
+                
+                <!-- Call-to-Action Buttons -->
+                <div class="mt-12 max-w-xl mx-auto sm:flex sm:justify-center sm:space-x-4">
+                    <a href="#preise" class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
+                        Jetzt klare Botschaft erstellen!
+                    </a>
+                    <a href="#wie-gehts" class="mt-4 sm:mt-0 w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 border border-gray-300 rounded-md shadow-sm text-base font-medium text-gray-700 bg-white hover:bg-gray-50">
+                        Mehr zum Prozess
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Problem-Sektion (Social Proof - "Bekannt aus") -->
+        <section class="bg-gray-50 py-12">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <p class="text-base font-semibold text-gray-500 tracking-wider">
+                        Vertraut von über 5.000 Unternehmen, Marketern und Agenturen
+                    </p>
+                    <!-- Hier könnten Logos von bekannten Kunden/Medien hin -->
+                </div>
+            </div>
+        </section>
+
+        <!-- NEUE PROBLEM-SEKTION -->
+        <section class="bg-white py-16 sm:py-24">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">Gute Produkte verdienen klare Botschaften</h2>
+                <p class="mt-4 text-xl text-gray-600">
+                    Kennen Sie das? Sie haben ein hervorragendes Produkt, aber Schwierigkeiten, klare und überzeugende Werbeaussagen zu finden, die Kunden wirklich ansprechen.
+                </p>
+                <div class="mt-8 text-left max-w-2xl mx-auto space-y-4">
+                    <p class="text-lg text-gray-700"><span class="font-bold text-indigo-600">Das Problem:</span> Dies führt zu Frustration, Unsicherheit und dem Gefühl, nicht verstanden zu werden, wenn Marketingbemühungen scheitern und das Budget verpufft.</p>
+                    <p class="text-lg text-gray-700"><span class="font-bold text-indigo-600">Unsere Überzeugung:</span> Es ist unfair, dass gute Produkte im Markt untergehen, nur weil die Botschaft nicht stimmt. Ihre Arbeit hat es verdient, gesehen zu werden.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Wie's funktioniert (ANGEPASST) -->
+        <section id="wie-gehts" class="py-16 sm:py-24 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Unser Prozess: Vom Briefing zum Slogan
+                    </h2>
+                    <p class="mt-4 text-xl text-gray-600">
+                        Qualität braucht einen klaren Ablauf.
+                    </p>
+                </div>
+
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <!-- Schritt 1 -->
+                    <div class="text-center">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-100 text-indigo-600 font-bold text-xl mx-auto">
+                            1
+                        </div>
+                        <h3 class="mt-6 text-xl font-semibold text-gray-900">1. Briefing starten</h3>
+                        <p class="mt-2 text-base text-gray-600">
+                            Beschreiben Sie Ihr Produkt und Ihre Zielgruppe über unser strukturiertes Formular. Dies legt das Fundament für Ihre klaren Botschaften.
+                        </p>
+                    </div>
+                    <!-- Schritt 2 (ANGEPASST) -->
+                    <div class="text-center">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-100 text-indigo-600 font-bold text-xl mx-auto">
+                            2
+                        </div>
+                        <h3 class="mt-6 text-xl font-semibold text-gray-900">2. Analyse & Kreation</h3>
+                        <p class="mt-2 text-base text-gray-600">
+                            Unsere Experten analysieren Ihr Briefing (KI-gestützt) und generieren Ihre Kernbotschaften nach unserer Kernbotschaft-Strategie.
+                        </p>
+                    </div>
+                    <!-- Schritt 3 (ANGEPASST) -->
+                    <div class="text-center">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-100 text-indigo-600 font-bold text-xl mx-auto">
+                            3
+                        </div>
+                        <h3 class="mt-6 text-xl font-semibold text-gray-900">3. Botschaft implementieren</h3>
+                        <p class="mt-2 text-base text-gray-600">
+                            Implementieren Sie Ihre neuen, wirkungsvollen Aussagen auf Ihrer Website, in E-Mails sowie Anzeigen und sehen Sie den Unterschied.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 4. Feature-Sektion (ANGEPASST - "Der Guide") -->
+        <section id="features" class="bg-white py-16 sm:py-24">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Wir sind Ihr Partner für klares Marketing
+                    </h2>
+                    <p class="mt-4 text-xl text-gray-600">
+                        Wir verstehen, wie entmutigend es sein kann, wenn Ihre großartigen Produkte keine Resonanz finden. Wir sind hier, um das zu ändern.
+                    </p>
+                </div>
+                
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Feature 1 (ANGEPASST) -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-lg font-semibold text-gray-900">Empathie & Verständnis</h3>
+                        <p class="mt-2 text-base text-gray-600">
+                            Wir arbeiten täglich mit Unternehmern wie Ihnen und kennen die Frustration, wenn das Marketing nicht zündet.
+                        </p>
+                    </div>
+                    <!-- Feature 2 (ANGEPASST) -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-lg font-semibold text-gray-900">Erwiesene Kompetenz</h3>
+                        <p class="mt-2 text-base text-gray-600">
+                            Mit unserer Kernbotschaft-Strategie helfen wir Ihnen, präzise Werbeaussagen zu erstellen, die erwiesenermaßen funktionieren.
+                        </p>
+                    </div>
+                    <!-- Feature 3 (ANGEPASST) -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-lg font-semibold text-gray-900">Ihre Transformation</h3>
+                        <p class="mt-2 text-base text-gray-600">
+                            Werden Sie vom unsicheren Werbetreibenden zum souveränen Kommunikator, der genau weiß, wie er Kunden erreicht.
+                        </p>
+                    </div>
+                    <!-- Feature 4, 5, 6 entfernt für mehr Fokus -->
+                </div>
+            </div>
+        </section>
+
+        <!-- NEUE SEKTION (Erfolg/Misserfolg) -->
+        <section class="bg-gray-50 py-16 sm:py-24">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Misserfolg (Stakes) -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+                        <h3 class="text-2xl font-semibold text-gray-900">So klingt Verwirrung...</h3>
+                        <p class="mt-4 text-lg text-gray-600">
+                            Wenn Ihre Botschaften unklar bleiben, verpuffen sie ungehört. Kunden verstehen den Wert nicht, kaufen bei der Konkurrenz und Ihr Geschäft stagniert.
+                        </p>
+                    </div>
+                    <!-- Erfolg -->
+                    <div class="bg-indigo-600 text-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-semibold">So klingt Erfolg!</h3>
+                        <p class="mt-4 text-lg text-indigo-100">
+                            Mit einer klaren Botschaft fühlen Sie sich sicher. Sie verkaufen mühelos mehr Produkte, Ihr Geschäft wächst und Sie werden als Experte wahrgenommen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEUE SEKTION (Beispiele) -->
+        <section class="bg-white py-16 sm:py-24">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Unsere Strategie in Aktion
+                    </h2>
+                    <p class="mt-4 text-xl text-gray-600">
+                        So verwandeln wir Produkte in klare, kaufstarke Botschaften.
+                    </p>
+                </div>
+
+                <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <!-- Beispiel 1 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200">
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
+                            Das Produkt
+                        </span>
+                        <h3 class="mt-4 text-2xl font-semibold text-gray-900">Ein Buch über bessere Positionierung am Arbeitsmarkt</h3>
+                        <hr class="my-6 border-gray-300">
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                            Unsere Kernbotschaft
+                        </span>
+                        <p class="mt-4 text-lg text-gray-700">
+                            "Schluss mit endlosen Bewerbungen und Unsicherheit; unser Buch ist Ihr klarer Wegweiser zu Ihrem Traumjob, der Ihnen sofort Erfolg und Erfüllung bringt."
+                        </p>
+                    </div>
+                    
+                    <!-- Beispiel 2 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200">
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
+                            Das Produkt
+                        </span>
+                        <h3 class="mt-4 text-2xl font-semibold text-gray-900">Spezial-Kerzen für Halloween</h3>
+                         <hr class="my-6 border-gray-300">
+                        <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                            Unsere Kernbotschaft
+                        </span>
+                        <p class="mt-4 text-lg text-gray-700">
+                            "Gestalte dein Halloween unvergesslich mit unseren besonderen Kerzen und schaffe ein schauriges Lichtspiel, das deine Gäste in Staunen versetzt."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 5. Testimonials (Kundenstimmen) -->
+        <section class="bg-indigo-700 py-16 sm:py-24">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                    Was unsere Kunden sagen
+                </h2>
+                <blockquote class="mt-10">
+                    <p class="text-2xl font-medium text-white">
+                        "Die Zusammenarbeit mit SloganFox by TaleFrog war extrem professionell. Die Slogan-Vorschläge waren kreativ, auf den Punkt und viel besser als das, was wir intern entwickeln konnten. Der Mix aus menschlicher Expertise und Datenanalyse hat uns überzeugt."
+                    </p>
+                    <footer class="mt-8">
+                        <div class="md:flex md:items-center md:justify-center">
+                            <div class="md:flex-shrink-0">
+                                <!-- Placeholder-Bild für einen Kunden -->
+                                <img class="mx-auto h-10 w-10 rounded-full" src="https://placehold.co/40x40/ffffff/9CA3AF?text=A" alt="Foto von Anna S.">
+                            </div>
+                            <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
+                                <div class="text-base font-medium text-white">Anna S.</div>
+                                <svg class="hidden md:block mx-1 h-5 w-5 text-indigo-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M11 0h3L9 20H6l5-20z" />
+                                </svg>
+                                <div class="text-base font-medium text-indigo-200">Geschäftsführerin, Grünzeugs Berlin</div>
+                            </div>
+                        </div>
+                    </footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- 6. Preise -->
+        <section id="preise" class="bg-white py-16 sm:py-24">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Wählen Sie Ihr Analyse-Paket
+                    </h2>
+                    <p class="mt-4 text-xl text-gray-600">
+                        Transparente Preise für jeden Bedarf. Keine versteckten Kosten.
+                    </p>
+                </div>
+
+                <div class="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Plan 1: Schnell-Auswertung -->
+                    <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-gray-900">Schnell-Auswertung</h3>
+                            <p class="mt-2 text-gray-600">Der schnelle Kreativ-Input.</p>
+                            <p class="mt-4">
+                                <span class="text-5xl font-extrabold text-gray-900">9 €</span>
+                                <span class="text-base font-medium text-gray-500">/ einmalig (zzgl. USt.)</span>
+                            </p>
+                            <a href="#" class="mt-6 block w-full text-center px-6 py-3 border border-gray-300 rounded-md shadow-sm text-base font-medium text-indigo-600 bg-white hover:bg-gray-50">
+                                Jetzt buchen
+                            </a>
+                        </div>
+                        <div class="pt-6 pb-8 px-6">
+                            <h4 class="text-xs font-medium text-gray-900 uppercase tracking-wide">Was drin ist:</h4>
+                            <ul role="list" class="mt-4 space-y-3">
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Basis-Briefing</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">KI-gestützte Analyse</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">3 Slogan-Vorschläge</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Lieferung in 24h</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Keine Revisionen</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Plan 2: Voll-Auswertung (Hervorgehoben) -->
+                    <div class="border-2 border-indigo-600 rounded-lg shadow-xl divide-y divide-gray-200 relative">
+                        <div class="absolute top-0 right-0 -mt-3 mr-3">
+                            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
+                                Beliebt!
+                            </span>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-gray-900">Voll-Auswertung</h3>
+                            <p class="mt-2 text-gray-600">Das professionelle Experten-Paket.</p>
+                            <p class="mt-4">
+                                <span class="text-5xl font-extrabold text-gray-900">29 €</span>
+                                <span class="text-base font-medium text-gray-500">/ einmalig (zzgl. USt.)</span>
+                            </p>
+                            <a href="#" class="mt-6 block w-full text-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                                Jetzt buchen
+                            </a>
+                        </div>
+                        <div class="pt-6 pb-8 px-6">
+                            <h4 class="text-xs font-medium text-gray-900 uppercase tracking-wide">Alles aus Schnell, plus:</h4>
+                            <ul role="list" class="mt-4 space-y-3">
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Detailliertes Briefing</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Manuelle Experten-Analyse (Human + AI)</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">5 Slogan-Vorschläge</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">"Zero-To-Hero"-Strategie</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Kurze Erläuterung zu jedem Slogan</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">1 Revisionsschleife inklusive</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Lieferung in 48h</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Plan 3: Agentur-Flatrate -->
+                    <div class="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-gray-900">Agentur-Flatrate</h3>
+                            <p class="mt-2 text-gray-600">Für Power-User und Dauerbedarf.</p>
+                            <p class="mt-4">
+                                <span class="text-5xl font-extrabold text-gray-900">129 €</span>
+                                <span class="text-base font-medium text-gray-500">/ Monat (zzgl. USt.)</span>
+                            </p>
+                            <a href="#" class="mt-6 block w-full text-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                                Jetzt buchen
+                            </a>
+                        </div>
+                        <div class="pt-6 pb-8 px-6">
+                            <h4 class="text-xs font-medium text-gray-900 uppercase tracking-wide">Alles aus Voll, plus:</h4>
+                            <ul role="list" class="mt-4 space-y-3">
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Bis zu 10 Voll-Auswertungen / Monat</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Dedizierter Ansprechpartner</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Monatlich kündbar</span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                                    <span class="text-base text-gray-600">Priorisierte Lieferung (24h)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. FAQ (Häufige Fragen) -->
+        <section id="faq" class="bg-gray-50 py-16 sm:py-24">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900">
+                        Häufig gestellte Fragen (FAQ)
+                    </h2>
+                </div>
+                <dl class="mt-12 space-y-8">
+                    <div>
+                        <dt class="text-lg font-medium text-gray-900">
+                            Sind die Slogans wirklich einzigartig?
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-600">
+                            Jeder Slogan wird individuell für Ihr Briefing entwickelt. Wir empfehlen dennoch immer, Ihren Favoriten vor der finalen Nutzung einer markenrechtlichen Prüfung zu unterziehen.
+                        </dd>
+                    </div>
+                    <div>
+                        <dt class="text-lg font-medium text-gray-900">
+                            Was, wenn mir die Vorschläge nicht gefallen?
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-600">
+                            Kundenzufriedenheit ist uns wichtig. Bei der "Voll-Auswertung" und der "Flatrate" ist eine Revisionsschleife (bzw. mehrere) inklusive. Wir arbeiten auf Basis Ihres Feedbacks neue Vorschläge aus.
+                        </dd>
+                    </div>
+                    <div>
+                        <dt class="text-lg font-medium text-gray-900">
+                            Wie funktioniert die Kündigung?
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-600">
+                            Die "Agentur-Flatrate" ist monatlich kündbar, ganz unkompliziert. Die Pakete "Schnell-Auswertung" und "Voll-Auswertung" sind einmalige Zahlungen und beinhalten kein Abonnement.
+                        </dd>
+                    </div>
+                    <div>
+                        <dt class="text-lg font-medium text-gray-900">
+                            Für wen ist dieser Service gedacht?
+                        </dt>
+                        <dd class="mt-2 text-base text-gray-600">
+                            Für Gründer, Marketing-Abteilungen, Agenturen und jedes Unternehmen, das einen professionellen, kreativen Slogan sucht und Wert auf Expertise statt reiner KI-Generierung legt.
+                        </D>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <!-- 8. Finaler CTA (Call-to-Action) (ANGEPASST) -->
+        <section class="bg-indigo-600">
+            <div class="max-w-4xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-white sm:text-5xl">
+                    Verkaufen Sie mühelos mehr Produkte.
+                </h2>
+                <p class="mt-4 text-xl text-indigo-100">
+                    Wenn Sie damit kämpfen, die richtigen Worte für Ihre Produkte zu finden, ist die Nutzung unserer App der richtige Schritt für Sie.
+                </p>
+                <a href="#preise" class="mt-8 w-full inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-md shadow-sm text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto">
+                    Erstellen Sie jetzt Ihre klare Marketingbotschaft!
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800" aria-labelledby="footer-heading">
+        <div class="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-gray-300">Impressum</a>
+                    <a href="#" class="text-gray-400 hover:text-gray-300">Datenschutz</a>
+                    <a href="#" class="text-gray-400 hover:text-gray-300">Kontakt</a>
+                </div>
+                <p class="text-base text-gray-400">
+                    &copy; 2025 SloganFox by TaleFrog. Alle Rechte vorbehalten.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Kein JavaScript mehr nötig für die Demo -->
+
+</body>
+</html>
